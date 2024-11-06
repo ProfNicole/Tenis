@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border: none;
+        }
+        .video-title {
+            margin-top: 10px;
+            font-size: 1.2em;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos</h1>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/LsvhNS4w8zc" allowfullscreen></iframe>
+        <div class="video-title">Título do Vídeo 1 - LsvhNS4w8zc</div>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/P1DUnWEx6RI" allowfullscreen></iframe>
+        <div class="video-title">Título do Vídeo 2 - P1DUnWEx6RI</div>
+    </div>
+
+</body>
+</html>
